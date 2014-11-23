@@ -9,12 +9,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 subject: identifies the person being observed.  The range is 1 - 30, for each of the 30 people involved.
 
-activity: the activities performed by the person while they were being monitored.  Each person did all of the 6 activities:
+activity:  the activities performed by the person while they were being monitored.  Each person did all of the 6 activities:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-timeBodyAccMeanX / timeBodyAccMeanY / timeBodyAccMeanZ: 
-the body acceleration signal, in standard gravity units 'g'.
-On the X, Y, and Z axis, respectively. 
+timeBodyAccMeanX / timeBodyAccMeanY / timeBodyAccMeanZ: the body acceleration signal, in standard gravity units 'g'.  On the X, Y, and Z axis, respectively. 
 
 timeBodyAccStdDevX / timeBodyAccStdDevY / timeBodyAccStdDevZ: the standard deviation of signal for timeBodyAccMeanX/Y/Z.
 On the X, Y, and Z axis, respectively. 
@@ -126,7 +124,9 @@ the 'f' prefix was expanded to 'freq',
 and the names containing "BodyBody" were changed to only "Body".  
 
 More technical details from original code book:
-<Copied from features_info.txt>
+
+[The following is copied from features_info.txt]
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
@@ -181,6 +181,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
-<end of copy>
+The complete list of variables of each feature vector is available in 'features.txt'.
+
+[End of copy]
 
