@@ -7,108 +7,103 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ###Column Descriptions
 
-subject: identifies the person being observed.  The range is 1 - 30, for each of the 30 people involved.
+* subject: identifies the person being observed.  The range is 1 - 30, for each of the 30 people involved.
 
-activity:  the activities performed by the person while they were being monitored.  Each person did all of the 6 activities:
+* activity:  the activities performed by the person while they were being monitored.  Each person did all of the 6 activities:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-timeBodyAccMeanX / timeBodyAccMeanY / timeBodyAccMeanZ: the body acceleration signal, in standard gravity units 'g'.  On the X, Y, and Z axis, respectively. 
+* timeBodyAccMeanX / timeBodyAccMeanY / timeBodyAccMeanZ: the body acceleration signal, in standard gravity units 'g'.  On the X, Y, and Z axis, respectively. 
 
-timeBodyAccStdDevX / timeBodyAccStdDevY / timeBodyAccStdDevZ: the standard deviation of signal for timeBodyAccMeanX/Y/Z.
+* timeBodyAccStdDevX / timeBodyAccStdDevY / timeBodyAccStdDevZ: the standard deviation of signal for timeBodyAccMeanX/Y/Z.
 On the X, Y, and Z axis, respectively. 
 
-timeGravityAccMeanX / timeGravityAccMeanY / timeGravityAccMeanZ: the gravity acceleration signal, in standard gravity units 'g'.
+* timeGravityAccMeanX / timeGravityAccMeanY / timeGravityAccMeanZ: the gravity acceleration signal, in standard gravity units 'g'.  On the X, Y, and Z axis, respectively. 
+
+* timeGravityAccStdDevX / timeGravityAccStdDevY / timeGravityAccStdDevZ:  the standard deviation of signal for 
+timeGravityAccMeanX/Y/Z.  On the X, Y, and Z axis, respectively. 
+
+* timeBodyAccJerkMeanX /timeBodyAccJerkMeanY / timeBodyAccJerkMeanZ:  the jerk signal associated with timeBodyAccMeanX, in standard gravity units 'g'.  On the X, Y, and Z axis, respectively. 
+
+* timeBodyAccJerkStdDevX / timeBodyAccJerkStdDevY / timeBodyAccJerkStdDevZ: the standard deviation of signal for 
+timeBodyAccJerkMeanX/Y/Z.  On the X, Y, and Z axis, respectively. 
+
+* timeBodyGyroMeanX / timeBodyGyroMeanY /  timeBodyGyroMeanZ: 
+the gyroscope measurement.  On the X, Y, and Z axis, respectively. 
+
+* timeBodyGyroStdDevX / timeBodyGyroStdDevY /timeBodyGyroStdDevZ: the standard deviation of signal for timeBodyGyroMeanX/Y/Z.
 On the X, Y, and Z axis, respectively. 
 
-timeGravityAccStdDevX / timeGravityAccStdDevY / timeGravityAccStdDevZ:  the standard deviation of signal for 
-timeGravityAccMeanX/Y/Z.
+* timeBodyGyroJerkMeanX / timeBodyGyroJerkMeanY / timeBodyGyroJerkMeanZ: the jerk signal associated with timeBodyGyroMeanX/Y/Z.
 On the X, Y, and Z axis, respectively. 
 
-timeBodyAccJerkMeanX /timeBodyAccJerkMeanY / timeBodyAccJerkMeanZ:  the jerk signal associated with timeBodyAccMeanX, in standard gravity units 'g'.
+* timeBodyGyroJerkStdDevX / timeBodyGyroJerkStdDevY /  timeBodyGyroJerkStdDevZ:  the standard deviation of signal for timeBodyGyroJerkMeanX/Y/Z.
 On the X, Y, and Z axis, respectively. 
 
-timeBodyAccJerkStdDevX / timeBodyAccJerkStdDevY / timeBodyAccJerkStdDevZ: the standard deviation of signal for 
-timeBodyAccJerkMeanX/Y/Z.
-On the X, Y, and Z axis, respectively. 
+* timeBodyAccMagMean: the magnitude of timeBodyAccMean signal, in standard gravity units 'g'. 
 
-timeBodyGyroMeanX / timeBodyGyroMeanY /  timeBodyGyroMeanZ: 
-the gyroscope measurement.
-On the X, Y, and Z axis, respectively. 
-
-timeBodyGyroStdDevX / timeBodyGyroStdDevY /timeBodyGyroStdDevZ: the standard deviation of signal for timeBodyGyroMeanX/Y/Z.
-On the X, Y, and Z axis, respectively. 
-
-timeBodyGyroJerkMeanX / timeBodyGyroJerkMeanY / timeBodyGyroJerkMeanZ: the jerk signal associated with timeBodyGyroMeanX/Y/Z.
-On the X, Y, and Z axis, respectively. 
-
-timeBodyGyroJerkStdDevX / timeBodyGyroJerkStdDevY /  timeBodyGyroJerkStdDevZ:  the standard deviation of signal for timeBodyGyroJerkMeanX/Y/Z.
-On the X, Y, and Z axis, respectively. 
-
-timeBodyAccMagMean: the magnitude of timeBodyAccMean signal, in standard gravity units 'g'. 
-
-timeBodyAccMagStdDev: the standard deviation associated with
+* timeBodyAccMagStdDev: the standard deviation associated with
 timeBodyAccMagMean.
 
-timeGravityAccMagMean: the magnitude of timeGravityAccMean signal, in standard gravity units 'g'.
+* timeGravityAccMagMean: the magnitude of timeGravityAccMean signal, in standard gravity units 'g'.
 
-timeGravityAccMagStdDev: the standard deviation associated with
+* timeGravityAccMagStdDev: the standard deviation associated with
 timeGravityAccMagMean.
 
-timeBodyAccMagMean: the jerk signal associated with timeBodyAccMeanX, in standard gravity units 'g'. 
+* timeBodyAccMagMean: the jerk signal associated with timeBodyAccMeanX, in standard gravity units 'g'. 
 
-timeBodyAccMagStdDev: the standard deviation associated with timeBodyAccMagMean.  
+* timeBodyAccMagStdDev: the standard deviation associated with timeBodyAccMagMean.  
 
-timeGravityAccMagMean: the magnitude of the timeBodyGyroMean signal. 
+* timeGravityAccMagMean: the magnitude of the timeBodyGyroMean signal. 
 
-timeGravityAccMagStdDev: the standard deviation associated with
+* timeGravityAccMagStdDev: the standard deviation associated with
 timeGravityAccMagMean.
 
-timeBodyAccJerkMagMean: the jerk signal associated with timeBodyGyroMeanX. 
+* timeBodyAccJerkMagMean: the jerk signal associated with timeBodyGyroMeanX. 
 
-timeBodyAccJerkMagStdDev: the standard deviation associated with timeBodyAccJerkMagMean.   
+* timeBodyAccJerkMagStdDev: the standard deviation associated with timeBodyAccJerkMagMean.   
 
-timeBodyGyroMagMean: the magnitude of the gyroscope measurement.
+* timeBodyGyroMagMean: the magnitude of the gyroscope measurement.
 
-timeBodyGyroMagStdDev: the standard deviation associated with timeBodyGyroMagMean.
+* timeBodyGyroMagStdDev: the standard deviation associated with timeBodyGyroMagMean.
 
-timeBodyGyroJerkMagMean: the jerk signal associated with
+* timeBodyGyroJerkMagMean: the jerk signal associated with
 timeBodyGyroMagMean.
 
-timeBodyGyroJerkMagStdDev: the standard deviation associated with timeBodyGyroJerkMagMean.
+* timeBodyGyroJerkMagStdDev: the standard deviation associated with timeBodyGyroJerkMagMean.
 
-freqBodyAccMeanX / freqBodyAccMeanY / freqBodyAccMeanZ: 
+* freqBodyAccMeanX / freqBodyAccMeanY / freqBodyAccMeanZ: 
 the frequency variable associated with timeBodyAccMeanX/Y/Z.
 
-freqBodyAccStdDevX / freqBodyAccStdDevY / freqBodyAccStdDevZ:
+* freqBodyAccStdDevX / freqBodyAccStdDevY / freqBodyAccStdDevZ:
 the frequency variable associated with timeBodyAccStdDevX/Y/Z.
 
-freqBodyAccJerkMeanX / freqBodyAccJerkMeanY / freqBodyAccJerkMeanZ: the frequency variable associated with 
+* freqBodyAccJerkMeanX / freqBodyAccJerkMeanY / freqBodyAccJerkMeanZ: the frequency variable associated with 
 timeBodyAccJerkMeanX/Y/Z.
 
-freqBodyAccJerkStdDevX / freqBodyAccJerkStdDevY / freqBodyAccJerkStdDevZ: the frequency variable associated with 
+* freqBodyAccJerkStdDevX / freqBodyAccJerkStdDevY / freqBodyAccJerkStdDevZ: the frequency variable associated with 
 timeBodyAccJerkStdDevX/Y/Z. 
 
-freqBodyGyroMeanX / freqBodyGyroMeanY / freqBodyGyroMeanZ:
+* freqBodyGyroMeanX / freqBodyGyroMeanY / freqBodyGyroMeanZ:
 the frequency variable associated with timeBodyGyroMeanX/Y/Z. 
 
-freqBodyGyroStdDevX / freqBodyGyroStdDevY / freqBodyGyroStdDevZ:
+* freqBodyGyroStdDevX / freqBodyGyroStdDevY / freqBodyGyroStdDevZ:
 the frequency variable associated with timeBodyGyroStdDevX/Y/Z.
 
-freqBodyAccMagMean:  the frequency variable associated with timeBodyAccMagMean. 
+* freqBodyAccMagMean:  the frequency variable associated with timeBodyAccMagMean. 
 
-freqBodyAccMagStdDev: the frequency variable associated with timeBodyAccMagStdDev. 
+* freqBodyAccMagStdDev: the frequency variable associated with timeBodyAccMagStdDev. 
 
-freqBodyAccJerkMagMean: the frequency variable associated with timeBodyAccJerkMagMean. 
+* freqBodyAccJerkMagMean: the frequency variable associated with timeBodyAccJerkMagMean. 
 
-freqBodyAccJerkMagStdDev: the frequency variable associated with timeBodyAccJerkMagStdDev. 
+* freqBodyAccJerkMagStdDev: the frequency variable associated with timeBodyAccJerkMagStdDev. 
 
-freqBodyGyroMagMean: the frequency variable associated with timeBodyGyroMagMean. 
+* freqBodyGyroMagMean: the frequency variable associated with timeBodyGyroMagMean. 
 
-freqBodyGyroMagStdDev: the frequency variable associated with timeBodyGyroMagStdDev. 
+* freqBodyGyroMagStdDev: the frequency variable associated with timeBodyGyroMagStdDev. 
 
-freqBodyGyroJerkMagMean: the frequency variable associated with timeBodyGyroJerkMagMean. 
+* freqBodyGyroJerkMagMean: the frequency variable associated with timeBodyGyroJerkMagMean. 
 
-freqBodyGyroJerkMagStdDev: the frequency variable associated with timeBodyGyroJerkMagStdDev. 
+* freqBodyGyroJerkMagStdDev: the frequency variable associated with timeBodyGyroJerkMagStdDev. 
   
 
 ###Mapping from original column names 
@@ -116,12 +111,18 @@ freqBodyGyroJerkMagStdDev: the frequency variable associated with timeBodyGyroJe
 Some columns in the original data set were excluded; this analysis dealt with only those columns measuring means or standard deviations of measurements.
 
 Other column names were modified to conform better to column naming conventions:
-hyphens and parenthesis were removed, 
-the 't' prefix was expanded to 'time',
-the 'f' prefix was expanded to 'freq',
-'mean()' was converted to 'Mean',
-'std()' was converted to 'StdDev',
-and the names containing "BodyBody" were changed to only "Body".  
+
+* hyphens and parenthesis were removed, 
+
+* the 't' prefix was expanded to 'time',
+
+* the 'f' prefix was expanded to 'freq',
+
+* 'mean()' was converted to 'Mean',
+
+* 'std()' was converted to 'StdDev',
+
+* and the names containing "BodyBody" were changed to only "Body".  
 
 More technical details from original code book:
 
