@@ -5,8 +5,10 @@ This project is for Coursera's Getting And Cleaning Data course.
 
 The project contains 3 elements:
 * this README file, which describes how to run the script, and design decisions involved in the project implementation.
-* a CodeBook.md file, which describes the data in the resulting tidy dataset.  (Note:  the tidy dataset is submitted separately to Coursera.)
+* a CodeBook.md file, which describes the data in the resulting tidy dataset.
 * the run_analysis.R script, which transforms the raw data into tidy data.
+
+In addition to these elements, the resulting tidy data set (file "tidy.txt") was submitted to Coursera separately.
 
 ### Running the Script
 Pre-requisisites:
